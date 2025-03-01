@@ -1,6 +1,9 @@
+<script setup>
+  import Navbar from '@/components/Navbar.vue'
+  import { RouterView } from 'vue-router';
+</script>
+
 <template>
-	<div class="container mt-5">
-    <h1 class="text-primary">Hello Bootstrap in Vue!</h1>
-    <button class="btn btn-success">Click Me</button>
-  </div>
+  <Navbar />
+  <RouterView />
 </template>
