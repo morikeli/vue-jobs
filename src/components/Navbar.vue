@@ -1,15 +1,16 @@
 <script setup>
 import logo from '@/assets/images/logo.png'
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>
     <nav class="navbar navbar-expand-md navbar-dark bg-success border-bottom border-success">
         <div class="container">
             <!-- Logo -->
-            <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <img :src="logo" alt="Vue Jobs" class="me-2" height="40">
-            <span class="d-none d-md-block fs-4 fw-bold">Vue Jobs</span>
-            </a>
+            <RouterLink class="navbar-brand d-flex align-items-center" to="/">
+                <img :src="logo" alt="Vue Jobs" class="me-2" height="40">
+                <span class="d-none d-md-block fs-4 fw-bold">Vue Jobs</span>
+            </RouterLink>
             
             <!-- Navbar toggler for mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -20,13 +21,13 @@ import logo from '@/assets/images/logo.png'
             <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link active bg-dark rounded px-3 py-2" href="/">Home</a>
+                    <RouterLink class="nav-link active bg-dark rounded px-3 py-2" to="/">Home</RouterLink>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link text-white rounded px-3 py-2" href="/jobs">Jobs</a>
+                    <RouterLink class="nav-link text-white rounded px-3 py-2" to="/jobs">Jobs</RouterLink>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link text-white rounded px-3 py-2" href="/jobs/add">Add Job</a>
+                    <RouterLink class="nav-link text-white rounded px-3 py-2" to="/jobs/add">Add Job</RouterLink>
                 </li>
             </ul>
             </div>
