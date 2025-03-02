@@ -1,1 +1,4 @@
-
+.custom-hover:hover {
+    background-color: #817979 !important; /* Bootstrap bg-dark */
+    color: white !important;
+  }
