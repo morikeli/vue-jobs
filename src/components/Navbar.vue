@@ -1,6 +1,13 @@
 <script setup>
 import logo from '@/assets/images/logo.png'
-import { RouterLink } from 'vue-router'
+import { RouterLink, useRoute } from 'vue-router'
+import { ref } from 'vue';
+
+const hover = ref(false)
+const isActiveLink = (routePath) => {
+    const route = useRoute();
+    return route.path === routePath;
+}
 </script>
 
 <template>
