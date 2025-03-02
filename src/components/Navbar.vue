@@ -28,13 +28,28 @@ const isActiveLink = (routePath) => {
             <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <RouterLink class="nav-link active bg-dark rounded px-3 py-2" to="/">Home</RouterLink>
+                    <RouterLink  to="/" :class="[
+                        isActiveLink('/') ? 'active bg-dark text-white' : 'bg-success text-white',
+                        'nav-link px-3 py-2 rounded',
+                        'text-decoration-none',
+                        'custom-hover'
+                    ]">Home</RouterLink>
                 </li>
                 <li class="nav-item">
-                    <RouterLink class="nav-link text-white rounded px-3 py-2" to="/jobs">Jobs</RouterLink>
+                    <RouterLink  to="/jobs" :class="[
+                        isActiveLink('/jobs') ? 'active bg-dark text-white' : 'bg-success text-white',
+                        'nav-link px-3 py-2 rounded',
+                        'text-decoration-none',
+                        'custom-hover'
+                    ]">Jobs</RouterLink>
                 </li>
                 <li class="nav-item">
-                    <RouterLink class="nav-link text-white rounded px-3 py-2" to="/jobs/add">Add Job</RouterLink>
+                    <RouterLink  to="/jobs/add" :class="[
+                        isActiveLink('/jobs/add') ? 'active bg-dark text-white' : 'bg-success text-white',
+                        'nav-link px-3 py-2 rounded',
+                        'text-decoration-none',
+                        'custom-hover'
+                    ]">Add jobs</RouterLink>
                 </li>
             </ul>
             </div>
