@@ -20,13 +20,13 @@
             <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link active bg-dark rounded px-3 py-2" href="index.html">Home</a>
+                <a class="nav-link active bg-dark rounded px-3 py-2" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link text-white rounded px-3 py-2" href="jobs.html">Jobs</a>
+                <a class="nav-link text-white rounded px-3 py-2" href="/jobs">Jobs</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link text-white rounded px-3 py-2" href="add-job.html">Add Job</a>
+                <a class="nav-link text-white rounded px-3 py-2" href="/jobs/add">Add Job</a>
                 </li>
             </ul>
             </div>
