@@ -1,8 +1,10 @@
 <script setup>
 import JobListing from './JobListing.vue'
-import jobData from '../jobs.json'
-import { ref, defineProps } from 'vue'
+import { defineProps, onMounted, reactive } from 'vue'
 import { RouterLink } from 'vue-router'
+import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
+import axios from 'axios'
+
 defineProps({
     limit: Number,
     showButton: {
