@@ -155,20 +155,6 @@
       }
     },
     {
-      "id": "027e",
-      "title": "Senior Vue Dev",
-      "type": "Full-Time",
-      "location": "New York",
-      "description": "kakalalskalksll",
-      "salary": "$60K - $70K",
-      "company": {
-        "name": "Software company",
-        "description": "aklasiowieiwoeryiyriuiyeiwi",
-        "contactEmail": "softcom@gmail.com",
-        "contactPhone": "+12345689001"
-      }
-    },
-    {
       "id": "bc73",
       "title": "Senior Vue Dev",
       "type": "Full-Time",
@@ -211,60 +197,18 @@
       }
     },
     {
-      "id": "72bb",
       "title": "Senior Vue Dev",
-      "type": "Full-Time",
+      "type": "Part-Time",
       "location": "New York",
-      "description": "kakalalskalksll",
-      "salary": "$60K - $70K",
-      "company": {
-        "name": "Software company",
-        "description": "aklasiowieiwoeryiyriuiyeiwi",
-        "contactEmail": "softcom@gmail.com",
-        "contactPhone": "+12345689001"
-      }
-    },
-    {
-      "id": "e785",
-      "title": "Senior Vue Dev",
-      "type": "Full-Time",
-      "location": "New York",
-      "description": "wiewuwuririhfncciuirfnciuwi",
-      "salary": "$60K - $70K",
-      "company": {
-        "name": "Software company",
-        "description": "akslkaslsakkdmcmklcksdlmcldksmlmmdclsldklsdiorioerirvnvoriorivnroivneoir",
-        "contactEmail": "softcom@gmail.com",
-        "contactPhone": "+12345689001"
-      }
-    },
-    {
-      "id": "6a9c",
-      "title": "nammananmaskjask",
-      "type": "Remote",
-      "location": "New York",
-      "description": "nasmamsnmsamsanm",
+      "description": "This is an updated job description",
       "salary": "$70K - $80K",
       "company": {
         "name": "Software company",
-        "description": "mamsjjkasjkdjkiasoiadoi",
+        "description": "This is an updated company description",
         "contactEmail": "softcom@gmail.com",
         "contactPhone": "+12345689001"
-      }
-    },
-    {
-      "id": "24b3",
-      "title": "Junior Vue dev",
-      "type": "Full-Time",
-      "location": "San Fransisco",
-      "description": "aklakslaksladljfla",
-      "salary": "Under $50K",
-      "company": {
-        "name": "Software company",
-        "description": "aklaksklaslkasoirioeirneoiningoi",
-        "contactEmail": "softcom@gmai",
-        "contactPhone": "+12345689001"
-      }
+      },
+      "id": "72bb"
     },
     {
       "id": "8945",
